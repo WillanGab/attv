@@ -1,0 +1,55 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.tudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section1 {
+    background: linear-gradient(  hsl(241, 81%, 80%) 0%, hsl(252, 84%, 52%) 20% );
+
+    border-radius: 10px;
+    width: 300px;
+}
+
+h1 {
+    color: rgb(175, 173, 173);
+    
+}
+
+.circulo {
+    width: 120px;
+    height: 120px;
+
+    background: linear-gradient(  hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+}
+
+.circulo p{
+    color: gray;
+}
+
+.circulo span {
+    color: white;
+    font-size: 50px;
+}
+
+.subtitulo{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.descricao {
+    color: white;
+}
